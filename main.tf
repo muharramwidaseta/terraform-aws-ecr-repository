@@ -1,5 +1,5 @@
 module "repo_name" {
-  source = "github.com/traveloka/terraform-aws-resource-naming?ref=v0.18.1"
+  source = "github.com/traveloka/terraform-aws-resource-naming?ref=v0.21.0"
 
   name_prefix   = "${var.repo_name}"
   resource_type = "ecr_repository"
